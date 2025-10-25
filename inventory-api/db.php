@@ -1,8 +1,8 @@
 <?php
 $host = 'localhost';
-$db = 'u418580423_scm_system';
-$user = 'u418580423_rootie';
-$pass = '0Idontknow0$%$%'; // 
+$db = '';
+$user = '';
+$pass = '; // 
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$db", $user, $pass);
