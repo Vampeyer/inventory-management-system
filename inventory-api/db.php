@@ -2,7 +2,7 @@
 $host = 'localhost';
 $db = '';
 $user = '';
-$pass = '; // 
+$pass = ''; // run your database and enter its server info to connect , here  
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$db", $user, $pass);
